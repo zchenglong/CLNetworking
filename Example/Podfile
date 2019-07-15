@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CLNetworking_Example' do
+  pod 'CLNetworking', :path => '../'
+
+  target 'CLNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
